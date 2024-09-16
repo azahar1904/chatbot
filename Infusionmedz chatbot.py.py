@@ -1,15 +1,5 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 from nltk.chat.util import Chat, reflections
-
-
-# In[4]:
-
-
 chats = [
          ["hello", ["hi"]],
          ["my name is (.*)", ["Hi, %1"]],
@@ -48,21 +38,6 @@ chats = [
          ["What languages are supported by InfusionMedz.com?",["Currently, our primary language of instruc8on and support is English. We are working to include mul8ple languages in the future to cater to a broader audience."]]
 ]         
 
-
-# In[5]:
-
-
 chat = Chat(chats, reflections)
 
-
-# In[ ]:
-
-
 chat.converse()
-
-
-# In[ ]:
-
-
-
-
